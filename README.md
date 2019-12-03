@@ -1,1 +1,1 @@
-# bitcapm-study
+# bitcamp-study
