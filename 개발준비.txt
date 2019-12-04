@@ -1,0 +1,62 @@
+
+1. scoop 설치
+
+ 윈도우 패키지 관리자
+
+2. graalvm 설치
+  
+ 유니버셜 가상 머신 : JVM. NodJS 포함
+
+ graalvm.org 사이트 -> java11 window버전 다운
+
+ bitcamp 폴더에 압축헤재
+
+ graalvm의 bin 폴더를 실행경로(path)에 추가한다. 
+ path에 추가해 놓으면 아무 디렉토리에서나 해당 폴더의 프로그램을 실행할 수 있다.
+ 등록방법 - 시스템 환경 변수 편집 -> 고급 -> 환경변수 -> 변수 목록에서 path 변수 값에 graalvm의 bin폴더를 추가한다.
+
+ graalvm이 설치된 폴더는 java home 이름으로 환경변수에 등록한다.
+ java프로그램 중에서는 jdk(jre)를 찾을때 java home으로 등록된 경로를 찾기 때문이다.
+ jdk(자바 개발 도구)를 설치한 후 에는 반드시 이 환경 변수에 설치 디렉토리의 경로를 등록해야한다. 
+
+ 설정 방법 - "시스템 변수" 목록에서"새로 만들기" 후  "java home"이라는 이름을 graalvm을 설치한 디렉토리를 지정한다.
+
+
+3. Visual Studio Code (vs code) 설치
+
+  일반 및 개발 용 편집기
+ 
+  자바스크립트로 만든 프로그램
+
+  크롬 웹 브라우저 기반으로 실행 
+
+  소스 코드(java, html, css, js 등)을 편집하기 위해 설치
+
+  물론 일반 텍스트(txt, md 등)을 편집할때도 사용
+
+
+4. Ecilpse 통합 개발환경 (IDE) 설치
+  
+ www.ecilpse.org 에서 설치
+
+ ecilpse의 작업 폴더,개발 환경 을 설정한다.
+ 
+ ecilpse-inst-win64.exe 를 실행한다.
+
+ ecilpse-enterprise 버전 설치 후 실행
+
+ 워크 스페이스(작업폴더 지정 c:\Users\사용자아이디\eclipse-workspace
+
+ ecilpse 사용 환경 설정 - JDK 경로 확인 및 지정 - 윈도우 메뉴 -> preferences 클릭 -> java노드 installed jres 클릭 및 jkd설정 확인
+                             - 자바 소스 코드를 저장할때 사용할 인코딩 규칙 설정-> 제너럴노드 - 워크스페이스 - 텍스트파일인코딩 - 아더 - utf 8 설정
+
+기본 편지기의 실행 환경 설정 - 제너럴노드 -> 에디터스 -> 텍스트 에디터스 노드 선택 - displayed tab width 2
+                                     insert spaces for tabs 체크 -> show print margin 체크 컬럼 100
+                                     show whitespace characters 의 configure visivbility 클릭, CR , LF 해제
+                                     공백을 표시할 때 30% 투명도로 흐리게 출력
+
+
+
+
+
+
